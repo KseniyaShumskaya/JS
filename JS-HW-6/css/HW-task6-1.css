@@ -1,0 +1,23 @@
+/* lesson6/dom2.js: добавить стили для элементов, которые создаются функцией createElems(goods)*/
+
+#goods {
+    max-width: 700px;
+    margin: 40px auto;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.caption-cell {
+    background-color: #3391ff;
+    color: rgba(11, 10, 66, 0.72);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.content-cell {
+    background-color: #ceffee;
+    color: rgba(98, 43, 239, 0.72);
+    padding: 10px;
+}
