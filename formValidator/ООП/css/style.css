@@ -1,0 +1,34 @@
+form {
+    background-attachment: fixed;
+    background-position: center;
+}
+input:required:valid {
+    border-color: green;
+}
+
+input:required:invalid{
+    border-color: red;
+}
+
+div {
+    padding: 60px;
+    width: 60px;
+    font-size: 3em;
+    background: pink;
+    text-align: center;
+    margin: 1%;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    font-family: 'Lato';
+}
+
+.message {
+    visibility: hidden;
+    transition: all ease 0.8s;
+}
+
+.message:hover {
+    visibility: visible;
+}
+
